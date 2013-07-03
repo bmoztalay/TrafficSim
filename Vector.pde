@@ -1,18 +1,18 @@
 class Vector {
-    float angle;
-    float magnitude;
+    public float angle;
+    public float magnitude;
  
     Vector() {
-        angle = 0;
-        magnitude = 1;   
+        angle = 0.0f;
+        magnitude = 1.0f;   
     }
  
-    Vector(float _angle, float _magnitude) {
-        angle = _angle;
-        magnitude = _magnitude;
+    Vector(float angle, float magnitude) {
+        this.angle = angle;
+        this.magnitude = magnitude;
     }
     
-    void rotateBy(float angleInRadians) {
+    public void rotateBy(float angleInRadians) {
         angle += angleInRadians;
         
         if(angle > TWO_PI) {
@@ -22,11 +22,11 @@ class Vector {
         }
     }
 
-    float xComponent() {
+    public float xComponent() {
         return magnitude * cos(angle);   
     }
     
-    float yComponent() {
+    public float yComponent() {
         return magnitude * sin(angle);   
     }
 }

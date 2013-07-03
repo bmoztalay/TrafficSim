@@ -3,12 +3,12 @@ class Point {
     float y;
  
     Point() {
-        x = 0;
-        y = 0;
+        x = 0.0f;
+        y = 0.0f;
     }   
     
-    Point(float _x, float _y) {
-        x = _x;
-        y = _y;   
+    Point(float x, float y) {
+        this.x = x;
+        this.y = y;   
     }
 }

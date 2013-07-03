@@ -1,20 +1,37 @@
 class Street {
-    static final float ROAD_WIDTH = 30;
+    private static final float ROAD_WIDTH = 30;
     
-    Point startPoint;
-    Vector streetVector;
+    private Point startPoint;
+    private Vector streetVector;
+    private ArrayList<Intersection> intersections;
     
-    float speedLimit;
+    private float speedLimit;
 
-    Street(Point _startPoint, Vector _streetVector, float _speedLimit) {
-        startPoint = _startPoint;
-        streetVector = _streetVector;
+    Street(Point startPoint, Vector streetVector, float speedLimit) {
+        this.startPoint = startPoint;
+        this.streetVector = streetVector;
+        this.intersections = new ArrayList<Intersection>();
         
-        speedLimit = _speedLimit;
+        this.speedLimit = speedLimit;
     }   
     
+    public Point getStartPoint() {
+        return startPoint;
+    }
     
-    void display() {
+    public Vector getStreetVector() {
+        return streetVector;   
+    }
+    
+    public float getSpeedLimit() {
+        return speedLimit;   
+    }
+    
+    public void addIntersection(Intersection intersection) {
+        intersections.add(intersection);   
+    }
+    
+    public void display() {
         pushMatrix();
         rectMode(CORNER);
      

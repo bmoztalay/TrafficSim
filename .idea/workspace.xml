@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24ae2739-90c8-485d-b414-f5133f15ea59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/vehicle/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/math/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/math/Vector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/vehicle/Vehicle.java" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\Car.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\Intersection.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\Point.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\Street.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\StreetMap.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\TrafficSim.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\Vector.pde" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ben\Desktop\Folders\TNCProjects\TrafficSim\Vehicle.pde" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java" afterPath="$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TrafficSim.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1372826933713" ignored="false" />
-    <file path="/TrafficSim.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1372827502516" ignored="false" />
+    <file path="/Dummy.txt" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1373131039524" ignored="false" />
+    <file path="/TrafficSim.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1373130616021" ignored="false" />
     <file path="/Vehicle.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1372827605865" ignored="false" />
     <file path="/Car.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1372827259749" ignored="false" />
     <file path="/Vector.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1372827295067" ignored="false" />
     <file path="/Point.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1372827619950" ignored="false" />
+    <file path="/StreetMap.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1373143415101" ignored="false" />
+    <file path="/Intersection.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1373143731073" ignored="false" />
+    <file path="/Street.java" changelist="24ae2739-90c8-485d-b414-f5133f15ea59" time="1373143853144" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +34,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -79,6 +70,24 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java" line="43" class="com.boztalay.trafficsim.street.StreetMap" package="com.boztalay.trafficsim.street">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -88,11 +97,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TrafficSim.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TrafficSim.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="37" selection-start="237" selection-end="237" vertical-scroll-proportion="0.19701986">
+            <state line="34" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreetMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="0" selection-start="3483" selection-end="3483" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intersection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="39" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Street.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="79" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.777628">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,20 +157,41 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/math/Point.java" />
         <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/vehicle/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java" />
-        <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java" />
-        <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java" />
         <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/vehicle/Car.java" />
         <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/math/Vector.java" />
         <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java" />
+        <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java" />
+        <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java" />
+        <option value="$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="y" value="-1080" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -158,8 +219,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,75 +277,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrafficSim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrafficSim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trafficsim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="street" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrafficSim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrafficSim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trafficsim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Applet.TrafficSim">
     <configuration default="false" name="TrafficSim" type="Applet" factoryName="Applet" temporary="true">
@@ -300,7 +314,13 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -432,8 +452,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="-1080" width="1936" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,13 +463,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20117396" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2010582" sideWeight="0.8020833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19791667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -529,6 +549,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="76" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TrafficSim.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -536,11 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/vehicle/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="47" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.70601094">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="45" column="47" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.70601094" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/math/Point.java">
@@ -550,36 +589,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.8360656">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="23" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.83278686">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7245902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/vehicle/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="0.20437159">
-          <folding />
-        </state>
+        <state line="11" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="0.20437159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/math/Vector.java">
@@ -591,8 +603,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/TrafficSim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="237" selection-end="237" vertical-scroll-proportion="0.19701986">
+        <state line="34" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/StreetMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="3483" selection-end="3483" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Intersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="39" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/boztalay/trafficsim/street/Street.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="79" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.777628">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

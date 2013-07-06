@@ -12,6 +12,9 @@ import java.util.ArrayList;
  */
 
 public class TrafficSim extends PApplet {
+    private static final int WINDOW_WIDTH = 500;
+    private static final int WINDOW_HEIGHT = 500;
+
     public static TrafficSim app;
 
     private ArrayList<Car> cars;
@@ -20,24 +23,25 @@ public class TrafficSim extends PApplet {
     public void setup() {
         app = this;
 
-        size(250, 250);
+        size(WINDOW_WIDTH, WINDOW_HEIGHT);
 
-        streetMap = new StreetMap(250, 250);
+        streetMap = new StreetMap(WINDOW_WIDTH, WINDOW_HEIGHT);
 
-        cars = new ArrayList<Car>();
         makeCars();
     }
 
     private void makeCars() {
-        Car car1 = new Car();
-        car1.setPosition(125, 235);
-        cars.add(car1);
+        cars = new ArrayList<Car>();
+
+//        Car car1 = new Car();
+//        car1.setPosition(125, 235);
+//        cars.add(car1);
     }
 
     public void draw() {
         background(128);
 
-        streetMap.display();
+        streetMap.draw();
 
         for(Car car : cars) {
             car.update();

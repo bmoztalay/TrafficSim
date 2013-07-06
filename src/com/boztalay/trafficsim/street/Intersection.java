@@ -50,15 +50,15 @@ public class Intersection {
     }
 
     private void validateStreets() {
-        for(Street street : streets) {
-            Point positionOnScreenFromStreet = calculatePositionOnScreenFromStreet(street);
-
-            if(!areFloatsEquivalent(positionOnScreenFromStreet.x, positionOnScreen.x) ||
-               !areFloatsEquivalent(positionOnScreenFromStreet.y, positionOnScreen.y)) {
-
-                throw new RuntimeException("Invalid street added to intersection!");
-            }
-        }
+//        for(Street street : streets) {
+//            Point positionOnScreenFromStreet = calculatePositionOnScreenFromStreet(street);
+//
+//            if(!areFloatsEquivalent(positionOnScreenFromStreet.x, positionOnScreen.x) ||
+//               !areFloatsEquivalent(positionOnScreenFromStreet.y, positionOnScreen.y)) {
+//
+//                throw new RuntimeException("Invalid street added to intersection!");
+//            }
+//        }
     }
 
     private boolean areFloatsEquivalent(float float1, float float2) {
@@ -85,8 +85,8 @@ public class Intersection {
         TrafficSim.app.rectMode(PConstants.CENTER);
 
         TrafficSim.app.fill(255, 0, 0);
-        TrafficSim.app.stroke(255, 0, 0);
-        TrafficSim.app.ellipse(positionOnScreen.x, positionOnScreen.y, 10.0f, 10.0f);
+        TrafficSim.app.stroke(0, 0, 0);
+        TrafficSim.app.rect(positionOnScreen.x, positionOnScreen.y, Street.ROAD_WIDTH, Street.ROAD_WIDTH);
 
         TrafficSim.app.popMatrix();
     }

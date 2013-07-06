@@ -12,8 +12,8 @@ import java.util.ArrayList;
  */
 
 public class TrafficSim extends PApplet {
-    private static final int WINDOW_WIDTH = 500;
-    private static final int WINDOW_HEIGHT = 500;
+    private static final int WINDOW_WIDTH = 640;
+    private static final int WINDOW_HEIGHT = 480;
 
     public static TrafficSim app;
 
@@ -25,7 +25,7 @@ public class TrafficSim extends PApplet {
 
         size(WINDOW_WIDTH, WINDOW_HEIGHT);
 
-        streetMap = new StreetMap(WINDOW_WIDTH, WINDOW_HEIGHT);
+        streetMap = new StreetMap(WINDOW_WIDTH - 1, WINDOW_HEIGHT - 1);
 
         makeCars();
     }

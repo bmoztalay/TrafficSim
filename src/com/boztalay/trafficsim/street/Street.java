@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 
 public class Street {
-    private static final float ROAD_WIDTH = 30.0f;
+    public static final float ROAD_WIDTH = 30.0f;
 
     private Point startPoint;
     private Vector streetVector;

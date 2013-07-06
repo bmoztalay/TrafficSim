@@ -28,8 +28,17 @@ public class StreetMap {
     }
 
     private void generateStreets() {
-        streets.add(new Street(new Point(0, 250), new Vector(TrafficSim.radians(0), 500), 10));
-        streets.add(new Street(new Point(250, 0), new Vector(TrafficSim.radians(90), 500), 10));
+        //Outline
+        float halfRoadWidth = Street.ROAD_WIDTH / 2.0f;
+
+        streets.add(new Street(new Point(halfRoadWidth,                         halfRoadWidth), new Vector(TrafficSim.radians(  0.0f), mapSize.x - Street.ROAD_WIDTH), 10.0f));
+        streets.add(new Street(new Point(mapSize.x - halfRoadWidth,             halfRoadWidth), new Vector(TrafficSim.radians( 90.0f), mapSize.y - Street.ROAD_WIDTH), 10.0f));
+        streets.add(new Street(new Point(mapSize.x - halfRoadWidth, mapSize.y - halfRoadWidth), new Vector(TrafficSim.radians(180.0f), mapSize.x - Street.ROAD_WIDTH), 10.0f));
+        streets.add(new Street(new Point(halfRoadWidth,             mapSize.y - halfRoadWidth), new Vector(TrafficSim.radians(270.0f), mapSize.y - Street.ROAD_WIDTH), 10.0f));
+
+        //Crossroads
+        streets.add(new Street(new Point(halfRoadWidth, mapSize.y / 2.0f), new Vector(TrafficSim.radians( 0.0f), mapSize.x - Street.ROAD_WIDTH), 10.0f));
+        streets.add(new Street(new Point(mapSize.x / 2.0f, halfRoadWidth), new Vector(TrafficSim.radians(90.0f), mapSize.y - Street.ROAD_WIDTH), 10.0f));
     }
 
     private void detectIntersections() {

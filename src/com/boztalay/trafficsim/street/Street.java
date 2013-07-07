@@ -45,6 +45,10 @@ public class Street {
         intersections.add(intersection);
     }
 
+    public ArrayList<Intersection> getIntersections() {
+        return intersections;
+    }
+
     public void draw() {
         TrafficSim.app.pushMatrix();
         TrafficSim.app.rectMode(PConstants.CORNER);

@@ -31,8 +31,6 @@ public class Intersection {
 
         if(streets.size() == 1) {
             calculatePositionOnScreenFromFirstStreet();
-        } else {
-            validateStreets();
         }
     }
 
@@ -47,18 +45,6 @@ public class Intersection {
         float positionY = street.getOrigin().y + (positionOnStreet * TrafficSim.sin(street.getStreetVector().angle));
 
         return new Point(positionX, positionY);
-    }
-
-    private void validateStreets() {
-//        for(Street street : streets) {
-//            Point positionOnScreenFromStreet = calculatePositionOnScreenFromStreet(street);
-//
-//            if(!areFloatsEquivalent(positionOnScreenFromStreet.x, positionOnScreen.x) ||
-//               !areFloatsEquivalent(positionOnScreenFromStreet.y, positionOnScreen.y)) {
-//
-//                throw new RuntimeException("Invalid street added to intersection!");
-//            }
-//        }
     }
 
     private boolean areFloatsEquivalent(float float1, float float2) {

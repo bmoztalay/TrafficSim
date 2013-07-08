@@ -58,8 +58,21 @@ public class StreetMap {
         }
 
         //Do all the heavy lifting up front
-        float sinTheta1 = TrafficSim.sin(vector1.angle);
         float sinTheta2 = TrafficSim.sin(vector2.angle);
+        if(sinTheta2 == 0.0f) {
+            //This is to prevent a divide by zero issue
+            Vector tempVector = vector1;
+            vector1 = vector2;
+            vector2 = tempVector;
+
+            Street tempStreet = street1;
+            street1 = street2;
+            street2 = tempStreet;
+
+            sinTheta2 = TrafficSim.sin(vector2.angle);
+        }
+
+        float sinTheta1 = TrafficSim.sin(vector1.angle);
         float cosTheta2 = TrafficSim.cos(vector2.angle);
         float sinTheta2MinusTheta1 = TrafficSim.sin(vector2.angle - vector1.angle);
 
